@@ -251,6 +251,16 @@ input, select, textarea {
 	/* scale: 0.5; */
 	scale: 0.4;
 	}
+	.profile-icon {
+		/* transition: transform 0.3s ease-in-out; */
+	
+		/* scale: 0.5; */
+		scale: 0.6;
+		/* vertical-align: middle; */
+  /* width: 180px; */
+  /* height: 40px; */
+  border-radius: 100%;
+		}
 
 	.image.icon:hover .mobile-icon {
 	transform: scale(1.1);
@@ -2782,7 +2792,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			height: 2.35em;
 			line-height: 2.35em;
-			margin: 0 0 0.75em 0;
+			/* margin: 0 0 0.75em 0; */
 			text-align: center;
 			width: 2.35em;
 		}
