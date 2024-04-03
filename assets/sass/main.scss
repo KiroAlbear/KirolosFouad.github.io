@@ -494,7 +494,7 @@
 
 		&:after {
 			@include vendor('transition', 'opacity 0.25s ease-in-out');
-			background-image: url('images/header.png');
+			background-image: url('images/overlay.png');
 			content: '';
 			display: block;
 			height: 100%;
