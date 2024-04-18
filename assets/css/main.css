@@ -14,16 +14,7 @@
     margin-right: auto;
     margin-left: auto;
 } */
-@media screen and (max-width: 565px) {
-	img.profile-icon {
-		display: flex;
-		justify-content: center;
-		width: 300px;
-		align-content: center;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
+
 #textContainer{
 	padding-left: 2em !important; 
     padding-right: 2em !important;
@@ -278,10 +269,27 @@ input, select, textarea {
 	
 		/* scale: 0.5; */
 		scale: 0.6;
-		vertical-align: middle;
-  /* width: 180px; */
-  /* height: 40px; */
-  border-radius: 100%;
+		/* vertical-align: middle; */
+		display: flex;
+		/* justify-content: center; */
+		/* width: 100px; */
+		/* align-content: center; */
+		margin-right: auto;
+		margin-left: auto;
+		/* width: 180px; */
+		/* height: 40px; */
+		border-radius: 100%;
+		}
+		@media screen and (max-width: 565px) {
+			.profile-icon {
+				/* display: flex; */
+				/* justify-content: center; */
+				width: 300px;	
+				/* scale: 0.4; */
+				/* align-content: center; */
+				/* margin-right: auto; */
+				/* margin-left: auto; */
+			}
 		}
 
 	.image.icon:hover .mobile-icon {
