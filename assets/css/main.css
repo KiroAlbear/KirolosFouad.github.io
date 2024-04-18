@@ -255,7 +255,9 @@ input, select, textarea {
 		/* transition: transform 0.3s ease-in-out; */
 	
 		/* scale: 0.5; */
-		scale: 0.6;
+		width: 300px;
+		scale: 1;
+		margin-bottom: 100px;
 		/* vertical-align: middle; */
   /* width: 180px; */
   /* height: 40px; */
