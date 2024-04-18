@@ -264,6 +264,25 @@ input, select, textarea {
 	/* scale: 0.5; */
 	scale: 0.4;
 	}
+	
+	.profilepicture {
+		/* transition: transform 0.3s ease-in-out; */
+		/* display: flex; */
+		/* scale: 0.5; */
+		scale: 0.6;
+		width: 40%;	
+		/* margin-bottom: 50px; */
+		/* vertical-align: middle; */
+		/* display: flex; */
+		/* justify-content: center; */
+		/* width: 100px; */
+		/* align-content: center; */
+		margin-right: auto;
+		margin-left: auto;
+		/* width: 180px; */
+		/* height: 40px; */
+		border-radius: 100%;
+		}
 	.profile-icon {
 		/* transition: transform 0.3s ease-in-out; */
 	
@@ -2764,7 +2783,7 @@ input, select, textarea {
 			content: '';
 			left: 50%;
 			position: absolute;
-			width: 0px;
+			width: 1px;
 			z-index: 0;
 		}
 
