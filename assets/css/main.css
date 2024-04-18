@@ -251,18 +251,20 @@ input, select, textarea {
 	/* scale: 0.5; */
 	scale: 0.4;
 	}
-	.profile-icon {
+	.profileicon {
 		/* transition: transform 0.3s ease-in-out; */
-	
+		/* display: flex; */
 		/* scale: 0.5; */
-		/* width: 300px; */
-		/* height: 300px; */
-		scale: 1;
-		margin-bottom: 200px;
+		width: 200px;
+		height: 200px;
+		/* scale: 0.1; */
+		/* margin-right: auto;
+		margin-left: auto; */
+		margin-bottom: 0px;
 		/* vertical-align: middle; */
-  /* width: 180px; */
-  /* height: 40px; */
-  border-radius: 100%;
+		/* width: 180px; */
+		/* height: 40px; */
+		border-radius: 100%;
 		}
 
 	.image.icon:hover .mobile-icon {
