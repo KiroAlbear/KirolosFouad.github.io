@@ -6,6 +6,28 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+img.profile-icon {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 565px) {
+	img.profile-icon {
+		display: flex;
+		justify-content: center;
+		width: 300px;
+		align-content: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+#textContainer{
+	padding-left: 2em !important; 
+    padding-right: 2em !important;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -251,22 +273,15 @@ input, select, textarea {
 	/* scale: 0.5; */
 	scale: 0.4;
 	}
-	.profileicon {
+	.profile-icon {
 		/* transition: transform 0.3s ease-in-out; */
-		/* display: flex; */
+	
 		/* scale: 0.5; */
-		/* width: 60%;
-		height: 60%; */
-		/* scale: 0.5; */
-		width: 100%;
-		height: auto;
-		/* margin-right: auto;
-		margin-left: auto; */
-		margin-bottom: 0px;
-		/* vertical-align: middle; */
-		/* width: 180px; */
-		/* height: 40px; */
-		border-radius: 100%;
+		scale: 0.6;
+		vertical-align: middle;
+  /* width: 180px; */
+  /* height: 40px; */
+  border-radius: 100%;
 		}
 
 	.image.icon:hover .mobile-icon {
@@ -3319,8 +3334,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding-left: 2em;
-				padding-right: 2em;
+				/* padding-left: 2em;
+				padding-right: 2em; */
 			}
 
 				#header br {
