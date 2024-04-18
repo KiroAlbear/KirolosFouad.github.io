@@ -282,17 +282,7 @@ input, select, textarea {
 		/* height: 40px; */
 		border-radius: 100%;
 		}
-		@media screen and (max-width: 565px) {
-			.profile-icon {
-				/* display: flex; */
-				/* justify-content: center; */
-				width: 250px;	
-				/* scale: 0.4; */
-				/* align-content: center; */
-				/* margin-right: auto; */
-				/* margin-left: auto; */
-			}
-		}
+	
 
 	.image.icon:hover .mobile-icon {
 	transform: scale(1.1);
