@@ -255,9 +255,9 @@ input, select, textarea {
 		/* transition: transform 0.3s ease-in-out; */
 		/* display: flex; */
 		/* scale: 0.5; */
-		width: 10cm;
-		height: 10cm;
-		/* scale: 0.1; */
+		width: 60%;
+		height: 60%;
+		scale: 0.5;
 		/* margin-right: auto;
 		margin-left: auto; */
 		margin-bottom: 0px;
