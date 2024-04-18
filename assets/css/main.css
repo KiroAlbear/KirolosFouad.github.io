@@ -268,7 +268,9 @@ input, select, textarea {
 		/* transition: transform 0.3s ease-in-out; */
 	
 		/* scale: 0.5; */
-		scale: 0.6;
+		/* scale: 0.6; */
+		width: 300px;	
+		margin-bottom: 50px;
 		/* vertical-align: middle; */
 		display: flex;
 		/* justify-content: center; */
@@ -284,7 +286,7 @@ input, select, textarea {
 			.profile-icon {
 				/* display: flex; */
 				/* justify-content: center; */
-				width: 300px;	
+				width: 250px;	
 				/* scale: 0.4; */
 				/* align-content: center; */
 				/* margin-right: auto; */
@@ -2772,7 +2774,7 @@ input, select, textarea {
 			content: '';
 			left: 50%;
 			position: absolute;
-			width: 1px;
+			width: 0px;
 			z-index: 0;
 		}
 
