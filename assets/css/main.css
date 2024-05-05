@@ -131,7 +131,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-	a {
+	/* a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -139,11 +139,11 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #4eb980;
 		text-decoration: none;
-	}
+	} */
 
-		a:hover {
+		/* a:hover {
 			border-bottom-color: transparent;
-		}
+		} */
 
 	strong, b {
 		font-weight: 600;
@@ -2699,8 +2699,10 @@ input, select, textarea {
 			width: 48%;
 		}
 
-			.feature .content h3 {
+			.feature .content h2 {
 				margin-bottom: 0.5em;
+				display: block;
+				text-align: center;
 			}
 
 			.feature .content :last-child {
